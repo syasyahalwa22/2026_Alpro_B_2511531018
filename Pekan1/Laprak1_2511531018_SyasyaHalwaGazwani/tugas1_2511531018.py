@@ -1,0 +1,10 @@
+print("Daftar Makanan Kantin Oyey")
+print("1. Chicken Katsu")
+print("2. Siomay Saus Kacang")
+print("3. Nasi Goreng")
+print("4. Ayam Penyet") 
+
+print()
+print("Makanan favorit di kantin Oyey: Ayam penyet")
+print("Makanan yang paling banyak dipesan: Nasi Goreng")
+print("Makanan yang paling sedikit dipesan: Siomay Saus Kacang")
