@@ -1,0 +1,72 @@
+# Name: Syasya Halwa Gazwani
+# NIM: 2511531018
+
+first_name = " muhammad"
+last_name = "rafi "
+full_name = first_name.strip() + " " + last_name.strip()
+print(full_name)
+print(full_name.title())
+
+
+full_name = " Siti Aisyah "
+nim = "2610511023"
+
+clean = full_name.strip()
+space = clean.find(" ")
+
+if space == -1:
+    first_name = clean
+else:
+    first_name = clean[:space]
+
+username = first_name.lower() + nim[-3:]
+
+print(username)
+
+
+full_name = " Muhammad Rafi Pratama "
+nim = "2610511045"
+
+clean = full_name.strip()
+space = clean.find(" ")
+
+if space == -1:
+    first_name = clean
+else:
+    first_name = clean[:space]
+
+username = first_name.lower() + nim[-3:]
+
+print(username)
+
+
+full_name = " Kartika "
+nim = "2610511007"
+
+clean = full_name.strip()
+space = clean.find(" ")
+
+if space == -1:
+    first_name = clean
+else:
+    first_name = clean[:space]
+
+username = first_name.lower() + nim[-3:]
+
+print(username)
+
+
+full_name = " Syasya Halwa Gazwani "
+nim = "2511531018"
+
+clean = full_name.strip()
+space = clean.find(" ")
+
+if space == -1:
+    first_name = clean
+else:
+    first_name = clean[:space]
+
+username = first_name.lower() + nim[-3:]
+
+print(username)
