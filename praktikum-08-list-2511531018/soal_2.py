@@ -1,3 +1,4 @@
+# 2a
 playlist = ["Lagu A", "Lagu B", "Lagu C", "Lagu D"]
 playlist.append("Lagu E")
 playlist.insert(1, "Lagu F")
@@ -7,7 +8,7 @@ print(playlist)
 print(played)
 
 
-
+# 2b
 notifications = ["chat", "promo", "promo", "email"]
 for item in notifications:
     if item == "promo":
@@ -15,7 +16,7 @@ for item in notifications:
 print(notifications)
 
 
-
+# 2c
 notes = ["intro", "list", "tuple"]
 shared = notes
 my_copy = notes.copy()
